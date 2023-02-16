@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="Nike Automation Test Suite">
+  <test name="Nike Test Cases">
+  <listeners>
+  <listener  class-name="extentReportListener.ExtentRepListener"/>
+  </listeners>
+  
+    <classes>
+      <class name="testFile.LoginPageTest"/>
+      <class name="testFile.WomenPageTest"/>
+          </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
